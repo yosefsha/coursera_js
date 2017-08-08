@@ -1,24 +1,48 @@
 
 body {
   font-family: Arial;
+  background-color: rgba(169, 213, 149, 1);
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container div,
 .container div h2{
   border-style: solid;
   border-width: thin;
-  float: none;
 }
 
-.container div{
-  background-color: rgba(75, 68, 68, 0.26);
-  text-align: justify;
+/*.container div{
 
-}
+
+}*/
 
 .container div h2 {
   background-color: yellow;
 }
 
-h2 {
+/*h2 {
   float: right ;
+}*/
+
+h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.item {
+  background-color: rgba(186, 186, 186, 1);
+  text-align: justify;
+  width: 30%;
+  float: left;
+  /*margin-left: 1.5%;
+  margin-right: 1.5%;*/
+  margin: 3% 1.5% 1.5% 1.5%
+  /*margin-left: 20px;*/
+  /*padding-left: 20px;*/
+  /*margin: auto;*/
 }
