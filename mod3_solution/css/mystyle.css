@@ -1,0 +1,36 @@
+
+body {
+  background-color: rgba(169, 213, 149, 1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+
+.item div{
+    padding: 5%;
+    text-align: left;
+    line-height: 1.7em;
+    margin: 3% 3% 3% 3%;
+}
+
+.item h2 {
+  float: center;
+  text-align: center;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.item{
+  background-color: rgba(186, 186, 186, 1);
+  margin: 3%;
+  text-align: justify;
+}
+
+
+section > div {
+  clear: both;
+}
