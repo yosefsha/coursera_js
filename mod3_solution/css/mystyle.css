@@ -1,7 +1,7 @@
 
-body {
-  background-color: rgba(169, 213, 149, 1);
-}
+/*body {
+  background-color: white;
+}*/
 
 h1 {
   text-align: center;
@@ -33,4 +33,24 @@ h1 {
 
 section > div {
   clear: both;
+}
+
+#header-nav{
+  background-color: rgba(186, 186, 186, 1);
+  border-radius: 0;
+  border: solid
+}
+
+#header-nav div{
+  color: black;
+  /*text-decoration: none;*/
+}
+
+#header-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#header-nav a:hover{
+    text-decoration:underline;
 }

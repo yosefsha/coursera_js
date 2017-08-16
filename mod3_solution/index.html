@@ -3,19 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>module 3</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   </head>
   <body>
     <header>
       <nav id="header-nav" class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-brand">
-            Food, LLC
+            <a href="#">Food, LLC</a>
           </div>
         </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
 
       </nav>
+
+      <!-- <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-inverse p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-inverse bg-inverse">
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div> -->
+
     </header>
     <h1>Our Menu</h1>
 
@@ -24,7 +67,7 @@
       <section class="col-md-4 col-sm-6 col-xs-12">
         <div class="item">
           <h2 id=first-item-header>Module Coding</h2>
-          <div class="clearboth">
+          <div >
             Coursera course: [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
             Woo-hoo! You get to do some coding! Exciting!
             **Time to complete:** 1-2 hours. It may take you less time than that if you've absorbed the material in this module well.
@@ -42,7 +85,7 @@
       <section class="col-md-4 col-sm-6 col-xs-12">
         <div class="item">
           <h2 id=second-item-header>Assignment</h2>
-          <div class="clearboth">
+          <div>
             1. (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
             2. (If you haven't already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and view your finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
             3. Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, `module2-solution` or `mod2_solution`, etc. Create an `index.html` file inside the solution container folder, e.g., `module2-solution/index.html`.
@@ -55,7 +98,7 @@
       <section class="col-md-4 col-xs-12">
         <div class="item">
           <h2 id=third-item-header>The mockup</h2>
-          <div class="clearboth">
+          <div >
             illustration of the desktop version of the site. Your final result should look very close to this mockup.
             ![desktop](images/desktop.png)
             Here is the mockup illustration of the tablet version of the site. Your final result should look very close to this mockup. Note that in this view, the 3rd div takes up the entire row.
@@ -73,7 +116,6 @@
 
     </div>
   </body>
-  <script type="text/javascript">
-
-  </script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript"src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </html>
