@@ -1,13 +1,4 @@
 
-body {
-  background-color: rgba(169, 213, 149, 1);
-}
-
-h1 {
-  text-align: center;
-  margin-top: 3%;
-}
-
 
 .item div{
     padding: 5%;
@@ -33,4 +24,45 @@ h1 {
 
 section > div {
   clear: both;
+}
+
+#header-nav{
+  background-color: rgba(186, 186, 186, 1);
+  border-radius: 0;
+  border: solid
+}
+
+#header-nav div{
+  color: black;
+  /*text-decoration: none;*/
+}
+
+#header-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#header-nav a:hover{
+    text-decoration:underline;
+}
+
+
+
+#nav-list li{
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  text-decoration:none;
+  padding: 0%;
+  margin-top: -2px;
+}
+
+#nav-list li a:hover{
+  text-decoration:none;
+}
+
+#collapsable-nav{
+  border: none;
 }
